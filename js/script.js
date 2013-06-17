@@ -4,7 +4,7 @@ $(function(){
 		},function(){
 			$(this).removeClass('active1').children('ul').css('display','none');
 			})
-	$('#b .nav1 li').click(function(e) {
+	$('#b .nav1 li').hover(function(e) {
         $(this).addClass('active2').siblings().removeClass('active2');
     });
 	$(".m2").click(function(e) {
